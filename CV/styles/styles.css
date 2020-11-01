@@ -105,12 +105,13 @@ header .contacts span{
 .info a{
   text-decoration: none;
   color: #084535;
-  font-weight: 200;
-}
-.info a:hover{
-  font-weight: bolder;
+  font-weight: bold;
 }
 .info a:active{
+  background-color: #fefe00;
+  border-radius: 40%;
+}
+.info a:hover{
   font-weight: lighter;
 }
 .info .skill{
@@ -211,4 +212,30 @@ footer #vk:active{
   background-image: url("..//assets/icons/vk3.svg");
   background-size: cover;
   background-position-y: -10px;
+}
+.ru {
+  display: none;
+  display: ;
+}
+#languages{
+  margin-left: 92%;
+  background-color: #F2F0D9;
+  font-size: 40px;
+  font-family: Corinthia;
+  border: none; 
+  text-align: center;
+  border-radius: 20%;
+  color: #084535;
+  vertical-align: middle;
+}
+#languages:hover{
+  background-color: #084535;
+  color: #F2F0D9;
+  border: none; 
+  border-radius: 20%;
+  cursor: pointer;
+}
+#languages:active{
+  background-color: #fefe00;
+  color: #084535;
 }
