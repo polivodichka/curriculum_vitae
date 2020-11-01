@@ -3,11 +3,11 @@
 } */
 @font-face{
   font-family: Corinthia;
-  src: url("/assets/fonts/Corinthia.ttf");
+  src: url("..//assets/fonts/Corinthia.ttf");
 }
 @font-face{
   font-family: Century;
-  src: url("/assets/fonts/CENTURY.TTF");
+  src: url("..//assets/fonts/CENTURY.TTF");
 }
 body{
   margin-top: 4px;
@@ -137,67 +137,67 @@ footer div{
   width: 30px;
 }
 footer #git{
-  background-image: url("/assets/icons/github1.svg");
+  background-image: url("..//assets/icons/github1.svg");
   background-size: cover;
   background-position-y: -10px;
   
 }
 footer #inst{
-  background-image: url("/assets/icons/instagram1.svg");
+  background-image: url("..//assets/icons/instagram1.svg");
   background-size: cover;
   background-position-y: -10px;
 }
 footer #tg{
-  background-image: url("/assets/icons/tg1.svg");
+  background-image: url("..//assets/icons/tg1.svg");
   background-size: cover;
   background-position-y: -10px;
 }
 footer #vk{
-  background-image: url("/assets/icons/vk1.svg");
+  background-image: url("..//assets/icons/vk1.svg");
   background-size: cover;
   background-position-y: -10px;
 }
 
 footer #git:hover{
-  background-image: url("/assets/icons/github2.svg");
+  background-image: url("..//assets/icons/github2.svg");
   background-size: cover;
   background-position-y: -10px;
   
 }
 footer #inst:hover{
-  background-image: url("/assets/icons/instagram2.svg");
+  background-image: url("..//assets/icons/instagram2.svg");
   background-size: cover;
   background-position-y: -10px;
 }
 footer #tg:hover{
-  background-image: url("/assets/icons/tg2.svg");
+  background-image: url("..//assets/icons/tg2.svg");
   background-size: cover;
   background-position-y: -10px;
 }
 footer #vk:hover{
-  background-image: url("/assets/icons/vk2.svg");
+  background-image: url("..//assets/icons/vk2.svg");
   background-size: cover;
   background-position-y: -20px;
 }
 
 footer #git:active{
-  background-image: url("/assets/icons/github3.svg");
+  background-image: url("..//assets/icons/github3.svg");
   background-size: cover;
   background-position-y: -10px;
   
 }
 footer #inst:active{
-  background-image: url("/assets/icons/instagram3.svg");
+  background-image: url("..//assets/icons/instagram3.svg");
   background-size: cover;
   background-position-y: -10px;
 }
 footer #tg:active{
-  background-image: url("/assets/icons/tg3.svg");
+  background-image: url("..//assets/icons/tg3.svg");
   background-size: cover;
   background-position-y: -10px;
 }
 footer #vk:active{
-  background-image: url("/assets/icons/vk3.svg");
+  background-image: url("..//assets/icons/vk3.svg");
   background-size: cover;
   background-position-y: -10px;
 }
