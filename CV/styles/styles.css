@@ -1,0 +1,240 @@
+/* *{
+  border: 1px solid black;
+} */
+@font-face{
+  font-family: Corinthia;
+  src: url("..//assets/fonts/Corinthia.ttf");
+}
+@font-face{
+  font-family: Century;
+  src: url("..//assets/fonts/CENTURY.TTF");
+}
+body{
+  margin-top: 4px;
+  width: 850px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 36.5% 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "photo header"
+  "skills info"
+  "skip footer";
+  font-style: Century;
+  color: #084535;
+}
+.photo{
+  grid-area: photo;
+  padding: 15% 9%;
+}
+
+header{
+  grid-area: header;
+  background-color: #F2F0D9;
+  font-size: 18px;
+}
+header .name{
+padding-left: 9.3%;
+padding-top: 8.5%;
+font-family: Corinthia;
+font-weight: normal;
+font-size: 85px;
+color: #084535;
+line-height: 100px;
+}
+header .contacts{
+  height: 33px;
+  padding-left: 9.3%;
+}
+header .contacts span{
+  font-family: Century;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding-left: 4%;
+}
+
+.skills{
+  grid-area: skills;
+  padding-left: 16%;
+  
+  font-family: Century;
+  font-style: normal;
+  font-weight: normal;
+}
+.skills .title{
+  padding-top: 7.5%;
+  font-family: Corinthia;
+  font-weight: normal;
+  font-size: 60px;
+}.skill{
+  padding-top: 12%;
+  font-size: 25px;
+  line-height: 30px;
+}
+.skill_name{
+  padding-bottom: 6.45%;
+}
+.skills .brunch{
+  font-size: 18px;
+}
+.skills p{
+  line-height: 20px;
+}
+
+.info{
+  grid-area: info;  
+  background-color: #F2F0D9;
+  padding-left: 9.3%;
+}
+.info .title{
+  padding-top: 4.3%;
+  font-family: Corinthia;
+  font-weight: normal;
+  font-size: 60px;
+  padding-bottom: 1%;
+}
+.info p{
+  width: 93%;
+  font-family: Century;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+}
+.info a{
+  text-decoration: none;
+  color: #084535;
+  font-weight: bold;
+}
+.info a:active{
+  background-color: #fefe00;
+  border-radius: 40%;
+}
+.info a:hover{
+  font-weight: lighter;
+}
+.info .skill{
+  display: block;
+  padding-top: 15px;
+  font-family: Century;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+}
+.education{
+  grid-area: education;
+  background-color: #F2F0D9;
+}
+.education .title{
+  
+  font-family: Corinthia;
+  font-weight: normal;
+  font-size: 60px;
+}
+li{
+  font-size: 17px;
+  list-style-type: circle;
+  padding-top: 5px;
+}
+footer{
+  grid-area: footer;
+  background-color: #F2F0D9;
+  text-align: center;
+  padding: 5%;
+}
+footer div{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+footer #git{
+  background-image: url("..//assets/icons/github1.svg");
+  background-size: cover;
+  background-position-y: -10px;
+  
+}
+footer #inst{
+  background-image: url("..//assets/icons/instagram1.svg");
+  background-size: cover;
+  background-position-y: -10px;
+}
+footer #tg{
+  background-image: url("..//assets/icons/tg1.svg");
+  background-size: cover;
+  background-position-y: -10px;
+}
+footer #vk{
+  background-image: url("..//assets/icons/vk1.svg");
+  background-size: cover;
+  background-position-y: -10px;
+}
+
+footer #git:hover{
+  background-image: url("..//assets/icons/github2.svg");
+  background-size: cover;
+  background-position-y: -10px;
+  
+}
+footer #inst:hover{
+  background-image: url("..//assets/icons/instagram2.svg");
+  background-size: cover;
+  background-position-y: -10px;
+}
+footer #tg:hover{
+  background-image: url("..//assets/icons/tg2.svg");
+  background-size: cover;
+  background-position-y: -10px;
+}
+footer #vk:hover{
+  background-image: url("..//assets/icons/vk2.svg");
+  background-size: cover;
+  background-position-y: -20px;
+}
+
+footer #git:active{
+  background-image: url("..//assets/icons/github3.svg");
+  background-size: cover;
+  background-position-y: -10px;
+  
+}
+footer #inst:active{
+  background-image: url("..//assets/icons/instagram3.svg");
+  background-size: cover;
+  background-position-y: -10px;
+}
+footer #tg:active{
+  background-image: url("..//assets/icons/tg3.svg");
+  background-size: cover;
+  background-position-y: -10px;
+}
+footer #vk:active{
+  background-image: url("..//assets/icons/vk3.svg");
+  background-size: cover;
+  background-position-y: -10px;
+}
+.ru {
+  display: none;
+}
+#languages{
+  margin-left: 92%;
+  background-color: #F2F0D9;
+  font-size: 40px;
+  font-family: Corinthia;
+  border: none; 
+  text-align: center;
+  border-radius: 20%;
+  color: #084535;
+  vertical-align: middle;
+}
+#languages:hover{
+  background-color: #084535;
+  color: #F2F0D9;
+  border: none; 
+  border-radius: 20%;
+  cursor: pointer;
+}
+#languages:active{
+  background-color: #fefe00;
+  color: #084535;
+}
